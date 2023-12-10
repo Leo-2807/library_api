@@ -40,7 +40,7 @@ python3 -m venv .venv
 1. Retrieve All Books:
   * Endpoint: `GET /api/books`
   * Response:
-```json
+```python
 [{'author': 'J.K.Rolling', 'id': 1, 'title': 'Harry Potter'}, {'author': 'Rick Riordan', 'id': 2, 'title': 'Percy Jackson'}, {'author': 'Ruskin Bond', 'id': 3, 'title': 'Blue Umbrella'}]
 ```
 
