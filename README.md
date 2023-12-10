@@ -26,6 +26,7 @@ exit()
 python3 run.py
 ```
 The command will start the application which can be viewed on `localhost:5000/api/books`.
+![pic](https://github.com/Leo-2807/library_api/blob/main/pics/WhatsApp%20Image%202023-12-10%20at%2018.54.27_79a8449e.jpg)
 
 Note:
 I used virtual enviourment while making this api and so if you want to do the same then run the following command before installing the dependencies, in the project directory.
@@ -36,14 +37,14 @@ python3 -m venv .venv
 
 ## API Documentation
 
-1. Retrieve All Books
+1. Retrieve All Books:
 Endpoint: `GET /api/books`
 Response:
 ```json
 [{'author': 'J.K.Rolling', 'id': 1, 'title': 'Harry Potter'}, {'author': 'Rick Riordan', 'id': 2, 'title': 'Percy Jackson'}, {'author': 'Ruskin Bond', 'id': 3, 'title': 'Blue Umbrella'}]
 ```
 
-2. Add a New Book
+2. Add a New Book:
 Endpoint: `POST /api/books`
 Request Body:
 ```json
@@ -54,7 +55,7 @@ Response:
 {'message': 'Book added successfully!'}
 ```
 
-3. Update Book Details
+3. Update Book Details:
 Endpoint: `PUT /api/books/{id}`
 Request Body:
 ```json
