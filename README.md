@@ -47,22 +47,22 @@ python3 -m venv .venv
 2. Add a New Book:
  * Endpoint: `POST /api/books`
  * Request Body:
-```json
+```python
 {'title': 'Percy Jackson', 'author': 'Rick Riordan'}
 ```
  * Response:
-```json
+```python
 {'message': 'Book added successfully!'}
 ```
 
 3. Update Book Details:
  * Endpoint: `PUT /api/books/{id}`
  * Request Body:
-```json
+```python
 {'title': 'Jujutsu Kaisen', 'author': 'Gege Akutami'}
 ```
  * Response:
-```json
+```python
 {'message': 'Book updated successfully!'}
 ```
 
