@@ -38,7 +38,7 @@ python3 -m venv .venv
 ## API Documentation
 
 1. Retrieve All Books:
-⋅⋅* Endpoint: `GET /api/books`
+  * Endpoint: `GET /api/books`
 ⋅⋅* Response:
 ```json
 [{'author': 'J.K.Rolling', 'id': 1, 'title': 'Harry Potter'}, {'author': 'Rick Riordan', 'id': 2, 'title': 'Percy Jackson'}, {'author': 'Ruskin Bond', 'id': 3, 'title': 'Blue Umbrella'}]
